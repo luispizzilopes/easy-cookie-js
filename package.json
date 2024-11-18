@@ -1,0 +1,19 @@
+{
+  "name": "easy-cookie",
+  "version": "1.0.0",
+  "description": "simple javascript package to handle browser cookie management",
+  "main": "index.js",
+  "scripts": {
+    "test": "boostrap()"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/luispizzilopes/easy-cookie.git"
+  },
+  "author": "Luis Felipe Pizzi Lopes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luispizzilopes/easy-cookie/issues"
+  },
+  "homepage": "https://github.com/luispizzilopes/easy-cookie#readme"
+}
