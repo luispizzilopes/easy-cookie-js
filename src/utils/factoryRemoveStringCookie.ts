@@ -4,7 +4,7 @@ import getDomainApplication from "./getDomainApplication";
 export default function factoryRemoveStringCookie(
     name: string, 
     props?: removeCookiePropsType
-) {
+) : string {
     const domainApplication = getDomainApplication() ?? ""; 
     const removeCookieString = `${encodeURIComponent(name)}=; 
         expires=Thu, 01 Jan 1970 00:00:00 GMT; 

@@ -5,7 +5,6 @@ import verifyCookie from "../utils/verifyCookie";
 export default function getObjectCookie<T>(name: string): T | null {
     if(!verifyCookie(name)){
         console.warn(messagesData.cookie_not_exists); 
-
         return null; 
     }
 

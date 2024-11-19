@@ -6,7 +6,11 @@ import factoryAddStringCookie from "../utils/factoryAddStringCookie";
 export default function addObjectCookie<T>(object: T, cookie: cookieType) : boolean{
     if(verifyCookie(cookie.name)){
         console.warn(messagesData.cookie_exists); 
+        return false; 
+    }
 
+    if(typeof object != 'object' || object === null){
+        console.warn(messagesData.invalid_object); 
         return false; 
     }
 

@@ -6,7 +6,6 @@ import verifyCookie from "../utils/verifyCookie";
 export default function removeCookie(name: string, props?: removeCookiePropsType) : boolean {
     if (!verifyCookie(name)) {
         console.warn(messagesData.cookie_not_exists);
-
         return false;
     }
 

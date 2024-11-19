@@ -1,3 +1,3 @@
-export default function getDomainApplication(){
+export default function getDomainApplication() : string{
     return window.location.hostname; 
 }

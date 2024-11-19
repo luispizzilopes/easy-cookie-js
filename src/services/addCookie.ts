@@ -6,7 +6,6 @@ import verifyCookie from "../utils/verifyCookie";
 export default function addCookie(cookie: cookieType) : boolean {
     if(verifyCookie(cookie.name)){
         console.warn(messagesData.cookie_exists); 
-
         return false; 
     }
 
