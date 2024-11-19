@@ -1,3 +1,5 @@
 export { default as addCookie } from "./src/services/addCookie"
+export { default as addObjectCookie } from "./src/services/addObjectCookie"
 export { default as removeCookie } from "./src/services/removeCookie"
 export { default as getCookie } from "./src/services/getCookie"
+export { default as getObjectCookie } from "./src/services/getObjectCookie"
