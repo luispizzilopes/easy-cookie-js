@@ -1,10 +1,13 @@
 {
-  "name": "easy-cookie",
-  "version": "1.0.0",
+  "name": "easy-cookie-js",
+  "version": "1.0.1",
   "description": "simple javascript package to handle browser cookie management",
   "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  }, 
   "scripts": {
-    "test": "boostrap()"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
