@@ -1,6 +1,6 @@
 {
   "name": "easy-cookie-js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "simple javascript package to handle browser cookie management",
   "main": "index.js",
   "exports": {
