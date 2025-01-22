@@ -9,5 +9,5 @@ export default function getObjectCookie<T>(name: string): T | null {
     }
 
     const match = document.cookie.match(regularExpressionCookie(name));
-    return match ? JSON.parse(match[2]) : null;
+    return match ? JSON.parse(decodeURIComponent(match[2])) : null;
 }
